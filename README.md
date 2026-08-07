@@ -1,30 +1,42 @@
 # VenturaSocial
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-incubation-orange)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura-social)
 
-**Análise de redes sociais com IA** — tendências, sentimentos e monitoramento de tópicos.
+**Laboratório de análise de redes sociais com IA para tendências, sentimentos e monitoramento de tópicos.**
 
-> Ecossistema **Ventura** · [Ventura Studio](https://github.com/chamseddinehiddoud/ventura-studio)
+> Ecossistema Ventura · [Ventura Studio](https://github.com/venturalabs-ai/ventura-studio)
 
-## Funcionalidades
+## Maturidade
 
-- Tendências por tópico
-- Análise de sentimentos
-- Monitoramento de marcas/termos (com APIs oficiais)
+**Incubation / experimental.** A proposta ainda está em validação e não representa uma plataforma pronta para produção.
+
+## Escopo planejado
+
+- tendências por tópico;
+- análise de sentimentos;
+- monitoramento de marcas/termos;
+- sumarização de sinais públicos;
+- integração somente por APIs oficiais/autorizadas.
+
+## Stack alvo
+
+`Python` · `Transformers` · `FastAPI` · `Docker`
 
 ## Ética e compliance
 
-Use apenas APIs oficiais e respeite termos de uso, privacidade e legislação local (LGPD/GDPR).
+Respeitar termos das plataformas, privacidade, LGPD/GDPR e limites das APIs. Não é objetivo do projeto contornar controles de acesso ou coletar dados privados.
 
-## Stack planejada
+## Critérios para Beta
 
-Python · Transformers · FastAPI · Docker
-
-## Status
-
-🔷 Scaffold inicial (2026-08-07).
+- integração documentada com pelo menos uma API oficial;
+- testes automatizados;
+- CI bloqueante;
+- métricas de qualidade dos classificadores;
+- política de retenção/privacidade;
+- release inicial.
 
 ## Licença
 
-MIT
+Consulte [LICENSE](LICENSE).
